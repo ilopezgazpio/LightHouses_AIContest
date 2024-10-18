@@ -1,19 +1,17 @@
 # Fork of lighthouses_aicontest
-https://github.com/marcan/lighthouses_aicontest.git
-
-Read file ```aicontest_spec.txt``` for long description of the game.
+You can find the original project at: https://github.com/marcan/lighthouses_aicontest.git
+Read file ```aicontest_spec.txt``` for a more in-depth description of the game.
 
 ## Launch configuration
 Prepare the environment with conda, see engine readme file
 ```
-conda install --name python3x -c cogsci pygame
-conda activate python3x
-... launch ai context ...
-conda deactivate
-```
-if this fails, you can try 
-```
+conda create --name pythonHB python=3.9
+conda activate pythonHB
 python3 -m pip install -U pygame --user
+
+... launch ai context ...
+
+conda deactivate
 ```
 
 ## Launch the game with one bot

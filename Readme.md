@@ -33,7 +33,7 @@ python engine/game.py \
 'python3.6 bots/RandBot/randbot.py'
 ```
 
-## Brief description of the game 
+## Brief description of the game
 - The game consists on programming small artificial intelligence software units (agents) that are launched inside the game as subprocesses.
 - The agents aim to collect as many points as possible by conquering lighthouses and conquering land between lighthouses.
 - The agents are restricted in time to make decisions that influence the environment
@@ -73,7 +73,7 @@ At game start the engine gives agents the following information encoded as a ```
 - total number of players
 - initial position
 - boolean map of the game ( with playable / non playable cells )
-- positions for lighthouses 
+- positions for lighthouses
 
 ```
 {
@@ -115,8 +115,8 @@ Agent receives the following information at each round:
 		[-1,-1,-1, 0,-1,-1,-1],
 		[-1, 0, 0,50,23,50,-1],
 		[-1, 0, 0,32,41, 0,-1],
-		[ 0, 0, 0, 0,50, 0, 0],   
-		[-1, 0, 0, 0, 0, 0,-1],   
+		[ 0, 0, 0, 0,50, 0, 0],
+		[-1, 0, 0, 0, 0, 0,-1],
 		[-1, 0, 0, 0, 0, 0,-1],
 		[-1,-1,-1, 0,-1,-1,-1]
 	],
@@ -192,7 +192,7 @@ OK response
 	"success": true
 }
 ```
-KO response
+or with KO response
 ```
 {
 	"success": false,
@@ -200,7 +200,7 @@ KO response
 }
 ```
 
-### Scoring 
+### Scoring
 - Initially 0 points
 Per round the engine gives the following points
 - +2 per lighthouse
